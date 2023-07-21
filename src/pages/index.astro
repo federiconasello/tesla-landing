@@ -2,7 +2,8 @@
 import LandingHeader from "../components/LandingHeader.astro";
 import HeroSection from "../components/HeroSection.astro";
 import Layout from "../layouts/Layout.astro";
-import ChargeSection from "../components/ChargeSection.astro"
+import ModelThree from "../components/ModelThree.astro"
+import ModelX from "../components/ModelX.astro";
 ---
 <Layout title="Welcome to Astro.">
   <LandingHeader />
@@ -12,18 +13,10 @@ import ChargeSection from "../components/ChargeSection.astro"
     <HeroSection />
   </div> 
   <div class="snap-center">
-    <ChargeSection />
+    <ModelThree />
   </div> 
   <div class="snap-center">
-    <HeroSection />
+    <ModelX />
   </div> 
-  <div class="snap-center">
-    <ChargeSection />
-  </div> 
-  <div class="snap-center">
-    <HeroSection />
-  </div> 
-  
-  
   </main>
 </Layout>
